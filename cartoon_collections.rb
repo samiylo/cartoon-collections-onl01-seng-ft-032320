@@ -37,14 +37,14 @@ end
 def find_the_cheese(array)
    
   cheese_types = ["cheddar", "gouda", "camembert"]
-
+  placeholder = []
 
   cheese_types.each do |cheese|
     array.each do |item|
       if cheese == item 
-        print cheese
+        placeholder << cheese
       end
     end
   end
-  
+  placeholder
 end
