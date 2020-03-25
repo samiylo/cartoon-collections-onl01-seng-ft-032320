@@ -46,5 +46,8 @@ def find_the_cheese(array)
       end
     end
   end
-  placeholder
+  if placeholder.length > 0
+    placeholder
+  else
+    puts "None"
 end
