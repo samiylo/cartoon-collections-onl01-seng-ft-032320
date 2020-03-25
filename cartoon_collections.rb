@@ -50,4 +50,5 @@ def find_the_cheese(array)
     placeholder
   else
     puts "None"
+  end
 end
